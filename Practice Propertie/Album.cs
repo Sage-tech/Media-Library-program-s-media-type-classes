@@ -2,7 +2,7 @@ namespace Treehouse.MediaLibrary
 {
     class Album : MediaType
     {
-        public readonly string Artist;
+        public readonly string Artist { get; set; }
         
         public Album(string title, string artist) 
             : base(title)
