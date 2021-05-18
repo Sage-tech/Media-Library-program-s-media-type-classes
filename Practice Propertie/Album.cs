@@ -4,18 +4,8 @@ namespace Treehouse.MediaLibrary
     {
         public readonly string Artist { get; private set; }
 
-        public string DisplayText
-        {
-        get
-         {
-             return "Album: " + Title + " by " + Artist + OnLoanDisplayText;
-              
-                return text;
-
-        }
-
-        }
-        
+        public string DisplayText => 
+        "Album: " + Title + " by " + Artist + OnLoanDisplayText;
         public Album(string title, string artist) 
             : base(title)
         {
