@@ -11,6 +11,17 @@ namespace Treehouse.MediaLibrary
             _items = items;
         }
         
+public void DisplayItems()
+{
+
+for (int index = 0; index < _items.Length; index++) 
+{
+
+
+}
+
+}
+
         public MediaType GetItemAt(int index)
         {
             if (index < _items.Length)
